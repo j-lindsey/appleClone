@@ -101,3 +101,19 @@ table {
   src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
   font-weight: 100;
 }
+
+/* Header Styles */
+.header{
+  background-color: black;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+.nav-link {
+
+}
+
+
+
