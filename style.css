@@ -105,6 +105,7 @@ table {
 /* Header Styles */
 .header{
   background-color: black;
+  text-align: center;
 }
 
 nav > ul > li {
@@ -112,7 +113,7 @@ nav > ul > li {
 }
 
 .nav-link {
-
+  margin: 0 35px;
 }
 
 
