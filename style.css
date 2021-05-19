@@ -171,7 +171,7 @@ nav>ul>li {
   background-position: center;
 }
 
-.ipad { 
+.ipad {
   background: url("images/ipad_pro_large.jpg");
   background-position: center;
 }
@@ -191,7 +191,7 @@ nav>ul>li {
   text-align: center;
 }
 
-.adapter > a {
+.adapter>a {
   font-size: 19px;
   color: #08c;
   text-decoration: none;
@@ -199,6 +199,8 @@ nav>ul>li {
 
 .footer {
   background-color: rgb(224, 224, 224);
+  font-family: "Myriad Set Pro", sans-serif;
+  font-size: .8em;
 }
 
 .footer-content {
@@ -206,10 +208,43 @@ nav>ul>li {
   width: 60%;
 }
 
-.links {
-
-}
+.links {}
 
 .footer-col {
   width: 20%;
+  float: left;
+}
+
+.footer-list-header {}
+
+.footer-list {
+  margin-top: 30px;
+}
+
+.footer-list>li {
+  margin: 10px 0;
+}
+
+.footer-list>li>a {
+  text-decoration: none;
+  color: #666;
+}
+
+.contact {
+  clear: both;
+  padding-top: 20px;
+  color: rgb(102, 102, 102, 0.8);
+}
+
+.contact>p>a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.copyright {
+  color: rgb(102, 102, 102, 0.8);
+}
+
+.copyright-list>li {
+  display: inline-block;
 }
