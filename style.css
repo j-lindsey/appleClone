@@ -185,3 +185,31 @@ nav>ul>li {
   background: url("images/macbook_large.jpg");
   background-position: center;
 }
+
+.adapter {
+  margin: 20px;
+  text-align: center;
+}
+
+.adapter > a {
+  font-size: 19px;
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgb(224, 224, 224);
+}
+
+.footer-content {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.links {
+
+}
+
+.footer-col {
+  width: 20%;
+}
