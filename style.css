@@ -108,6 +108,9 @@ table {
   font-weight: 100;
 }
 
+body{
+  font-family: "Myriad Set Pro", sans-serif;
+}
 /* Header Styles */
 
 .header {
@@ -123,24 +126,22 @@ nav>ul>li {
   margin: 0 35px;
 }
 
-.hero {
-  margin: 15px auto;
-  width: 60%;
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .hero-img {
-  width: 40%;
-  float: left;
   margin-left: 40px;
+  display: inline-block;
 }
 
 .hero-text {
   text-align: center;
-  width: 45%;
-  float: right;
-  font-family: "Myriad Set Pro", sans-serif;
-  margin-top: 230px;
-  margin-right: 100px;
+  display: inline-block;
+  margin-top: 200px;
+  width: 460px;
+  vertical-align: top;
 }
 
 .hero-text>h2 {
@@ -200,7 +201,6 @@ nav>ul>li {
 }
 
 .adapter>a {
-  font-family: "Myriad Set Pro", sans-serif;
   font-size: 18px;
   color: #08c;
   text-decoration: none;
@@ -212,13 +212,11 @@ nav>ul>li {
 
 .footer {
   background-color: #f2f2f2;
-  font-family: "Myriad Set Pro", sans-serif;
   font-size: .78em;
 }
 
 .footer-content {
   margin: 0 auto;
-  width: 55%;
 }
 
 .footer-col {
